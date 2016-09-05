@@ -53,13 +53,13 @@ public final class Skype {
   private boolean connecting = false;
   private IOException exceptionDuringConnection;
 
-  static {
-    try {
-      setDebug(null);
-    } catch (IOException e) {
-      // will not throw
-    }
-  }
+//  static {
+//    try {
+//      setDebug(null);
+//    } catch (IOException e) {
+//      // will not throw
+//    }
+//  }
 
   // --- Public API (except listeners add/remove methods) --- //
 
